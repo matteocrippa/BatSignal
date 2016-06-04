@@ -5,8 +5,8 @@ target 'BatSignal_Example' do
 
   target 'BatSignal_Tests' do
     inherit! :search_paths
-
+    pod 'AudioKit', '~> 3.1'
     pod 'Quick', '~> 0.8'
-  pod 'Nimble', '~> 3.0'
+    pod 'Nimble', '~> 3.0'
   end
 end

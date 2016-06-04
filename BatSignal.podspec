@@ -9,34 +9,24 @@
 Pod::Spec.new do |s|
   s.name             = 'BatSignal'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BatSignal.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'BatSignal is a low frequency audio comminication framework written in swift.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Stuck trying to sync data without any internet connection? Bluetooth is not good enough for your project? Or it's a pain to share between Android and iOS?
+BatSignal makes use of low frequency audio tokens in order to quickly share data between different device using speakers and microphone.
+Stay close, within 5 meters far from the other device, and that's all. All the magic is provided by this framework'
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/BatSignal'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/<matteocrippa>/BatSignal'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Matteo Crippa' => 'matteo@boostco.de' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/BatSignal.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Matteo Crippa' => "@ghego20" }
+  s.source           = { :git => 'https://github.com/<matteocrippa>/BatSignal.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/@ghego20'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'BatSignal/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'BatSignal' => ['BatSignal/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AudioKit', '~> 3.1'
+  s.dependency 'Chronos-Swift'
 end

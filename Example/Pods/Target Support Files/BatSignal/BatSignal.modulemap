@@ -1,0 +1,6 @@
+framework module BatSignal {
+  umbrella header "BatSignal-umbrella.h"
+
+  export *
+  module * { export * }
+}

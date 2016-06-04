@@ -1,0 +1,31 @@
+{
+  "name": "BatSignal",
+  "version": "0.1.0",
+  "summary": "BatSignal is a low frequency audio comminication framework written in swift.",
+  "description": "Stuck trying to sync data without any internet connection? Bluetooth is not good enough for your project? Or it's a pain to share between Android and iOS?\nBatSignal makes use of low frequency audio tokens in order to quickly share data between different device using speakers and microphone.\nStay close, within 5 meters far from the other device, and that's all. All the magic is provided by this framework'",
+  "homepage": "https://github.com/<matteocrippa>/BatSignal",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Matteo Crippa": "@ghego20"
+  },
+  "source": {
+    "git": "https://github.com/<matteocrippa>/BatSignal.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/@ghego20",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BatSignal/Classes/**/*",
+  "dependencies": {
+    "AudioKit": [
+      "~> 3.1"
+    ],
+    "Chronos-Swift": [
+
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_BatSignal_Example {
+  umbrella header "Pods-BatSignal_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

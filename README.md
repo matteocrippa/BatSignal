@@ -22,7 +22,7 @@ pod "BatSignal"
 
 ## Author
 
-Matteo Crippa, matteo@boostco.de
+Matteo Crippa, @ghego20
 
 ## License
 

@@ -3,6 +3,7 @@
 import Quick
 import Nimble
 import BatSignal
+import AudioKit
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
